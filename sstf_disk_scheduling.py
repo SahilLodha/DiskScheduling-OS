@@ -18,13 +18,13 @@ while True:
     locations.remove(head)
     final_sequence.append(head)
 
-print("The order of movement of head: ",final_sequence)
+print("The order of movement of head: ", final_sequence)
 
 fig, axes = plt.subplots()
 axes.xaxis.set_tick_params(labeltop=True)
 axes.xaxis.set_tick_params(labelbottom=False)
 axes.yaxis.set_tick_params(labelleft=False)
-plt.title('Simulation of Head Movement')
+plt.title('SSTF Scheduling')
 axes.plot(final_sequence, range(-1, -len(final_sequence)-1, -1), '-')
 axes.scatter(final_sequence, range(-1, -len(final_sequence)-1, -1))
 axes.grid()

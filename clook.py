@@ -8,7 +8,7 @@ maximum = int(input("maximum page value: "))
 
 # Creating Subplots (as two plots are to be created) ...
 fig, axis = plt.subplots(1, 2, figsize=(20, 10))
-fig.suptitle("Scan Algorithm")
+fig.suptitle("CLOOK Algorithm")
 
 # Setting up sub-plot attributes for plot 1
 axis[0].set_title('Upward movement')
