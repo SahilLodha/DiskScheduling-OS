@@ -7,6 +7,7 @@ above_head = [location for location in locations if location >= initial_head]
 below_head = [location for location in locations if location < initial_head]
 minimum = 0
 maximum = int(input("Maximum page value: "))
+
 # Creating Subplots (as two plots are to be created) ...
 fig, axis = plt.subplots(1, 2, figsize=(20, 15))
 fig.suptitle("Scan Algorithm")
